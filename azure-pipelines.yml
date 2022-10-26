@@ -1,4 +1,10 @@
 # Maven
+- task: CmdLine@2
+  inputs:
+    script: |
+      npm install -g scriptless-cli
+      
+      scriptless-cli run --cloudURL "https://web-demo-fra.app.perfectomobile.com" --securityToken "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzOGY3NGJkZC1iZmZlLTRmZGEtOTViYi04NTYyNDNmMTYyMDQifQ.eyJpYXQiOjE2NDIwNzI5NjAsImp0aSI6IjU0Y2U1ZTRhLWE1ZGYtNDllZC1hYjZjLTlhYjJiYmRhNGQ3YSIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvd2ViLWRlbW8tZnJhLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvd2ViLWRlbW8tZnJhLXBlcmZlY3RvbW9iaWxlLWNvbSIsInN1YiI6IjE0ZTg5ZDRlLTYzNTQtNDg0NC1iYzRjLWJjODYzNjc2MDdjZiIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsIm5vbmNlIjoiZGYxMjJlMDItYzUyYi00MDc4LTg2ZTktZjUwMGJhNGU4YmJhIiwic2Vzc2lvbl9zdGF0ZSI6IjNlOGZmMjJlLTdhYjYtNDlmYy04ZTY4LTUyNmJmYzEzYTM5OSIsInNjb3BlIjoib3BlbmlkIG9mZmxpbmVfYWNjZXNzIn0.gGixzDhGckqq4Fwxkk4jC7mbBEvN76qmvYODT4bAAQ8" -p "MStest" -v "Base" -j "Job1" -l "Chrome 1024x768" -e "https://www.microsoft.com(Default)"
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java

@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/natov/NatoProject1/_apis/build/status/Nato88.pipelines-java?branchName=main)](https://dev.azure.com/natov/NatoProject1/_build/latest?definitionId=4&branchName=main)
 
 # Contributing
 
